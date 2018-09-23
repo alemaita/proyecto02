@@ -1,0 +1,174 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+.container{
+    background: #1a2a6c;  
+background: -webkit-linear-gradient(to right, yellow, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, yellow, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: rgb(255, 240, 211);
+    /*max-width: 960px;
+    max-height: 600px;*/
+    width: 70vw;;
+    height: 80vh;
+    position: relative;
+    padding: 0.5em;
+    overflow: scroll;
+    border-radius: 2em;
+    
+    
+}
+
+.tablesss{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.tablesss th, 
+.tablesss td {
+    padding: 1em;
+    text-align: center;
+}
+
+th {
+    display: none;
+}
+
+td {
+   display: block; 
+}
+
+
+
+.tablesss tr:nth-child(even){
+    background-color: #ffd27e;
+}
+
+
+
+.fa-star{
+    color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+.underline {
+    border-bottom: solid 5px red;
+    padding-bottom: 15px;
+}
+
+.position {
+    background-color: red;
+    padding: 6px;
+    margin-left: 5px;
+    border-radius: 5%;
+}
+
+.actions {
+    position: sticky;
+    top: 1em;
+    left: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close {
+    background-color: #1a2a6c;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 5em;
+    color:white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.itemtitle {
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+
+
+
+
+ @media(min-width:600px){
+     th{
+         display: table-cell;
+     }
+     td {
+         display: table-cell;
+     }
+     td:nth-of-type(1){
+         font-size: 1em;
+         
+     }
+     .content{
+         width: 70vw;
+         height: 80vh;
+         padding: 1.8em;
+
+     }
+
+     .itemimage{
+        display: inline-block;
+    }
+
+    iframe {
+        width: 320px;
+        height: 225px;
+    }
+
+    .inline {
+        display: inline-block;
+    
+    }
+
+    i:hover{
+        color: orangered;
+    }
+
+    a:visited{
+        color: orangered;
+    }
+
+    a:focus{
+        background-color: bisque;
+    }
+
+
+    
+
+ }
