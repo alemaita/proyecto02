@@ -19,7 +19,7 @@ background: linear-gradient(to right, yellow, #b21f1f, #1a2a6c); /* W3C, IE 10+/
     background-color: rgb(255, 240, 211);
     /*max-width: 960px;
     max-height: 600px;*/
-    width: 70vw;;
+    width: 80vw;;
     height: 80vh;
     position: relative;
     padding: 0.5em;
@@ -120,6 +120,10 @@ a {
     font-size: 0.8em;
 }
 
+.itemim{
+    display: none;
+}
+
 
 
 
@@ -142,7 +146,7 @@ a {
 
      }
 
-     .itemimage{
+     .itemim{
         display: inline-block;
     }
 
